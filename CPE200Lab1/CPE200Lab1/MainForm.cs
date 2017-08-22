@@ -76,6 +76,7 @@ namespace CPE200Lab1
 
         private void btnNumber_Click(object sender, EventArgs e)
         {
+            //55555
             if (lblDisplay.Text is "Error")
             {
                 return;
