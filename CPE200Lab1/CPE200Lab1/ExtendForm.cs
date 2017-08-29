@@ -93,7 +93,18 @@ namespace CPE200Lab1
                 lblDisplay.Text = "Error";
             } else
             {
+//<<<<<<< HEAD
                 lblDisplay.Text = result;
+//=======
+                string result = engine.calculate(parts[1], parts[0], parts[2], 20);
+                if(result is "E")
+                {
+                    lblDisplay.Text = "Error";
+                } else
+                {
+                    lblDisplay.Text = result;
+                }
+//>>>>>>> parent of 440af70... Reduce the number of fraction to 4, for better UX
             }
         }
 
